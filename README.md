@@ -105,6 +105,10 @@ Você pode usar os seguintes comandos para executar o projeto:
 - **`public/`** - Contém o HTML base e ativos estáticos.
 - **`package.json`** - Gerenciamento de dependências e scripts do projeto.
 
+## Links
+
+- **URL da aplicação em produção**: [https://sujeitoprogramador-curso-react.netlify.app/](https://sujeitoprogramador-curso-react.netlify.app/)
+
 ## Licença
 
 Este projeto está licenciado sob a licença MIT.
