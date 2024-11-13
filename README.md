@@ -1,7 +1,3 @@
-Aqui está o README atualizado com a URL do repositório correta:
-
----
-
 # Primeflix
 
 ![React](https://img.shields.io/badge/React-18.3.1-blue.svg) ![Axios](https://img.shields.io/badge/Axios-1.7.7-blue.svg) ![React Router](https://img.shields.io/badge/React%20Router-6.28.0-blue.svg)
@@ -48,6 +44,32 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
    ```
 
 3. Obtenha uma chave de API no [TMDb](https://www.themoviedb.org/documentation/api) e configure-a na aplicação (caso o projeto exija configuração manual).
+
+## Arquivo `.env`
+
+O arquivo `.env` é utilizado para armazenar variáveis de ambiente que são usadas pela aplicação, garantindo que informações sensíveis ou específicas de configuração não fiquem expostas diretamente no código. No projeto **Primeflix**, o arquivo `.env` contém as seguintes variáveis de ambiente:
+
+### Variáveis de Ambiente
+
+- **`REACT_APP_TOKEN_API_TMDB`**: 
+  Esta variável armazena o token de acesso à API do [The Movie Database (TMDb)](https://www.themoviedb.org/). Você precisa obter uma chave de API gratuita diretamente no site do TMDb para poder consumir os dados da API.
+
+- **`REACT_APP_API_URL_TMDB`**: 
+  Esta variável define a URL base para fazer requisições à API do TMDb. Geralmente, esta URL é fixa para a API pública, mas ela pode ser configurada caso você precise utilizar um ambiente diferente (por exemplo, uma API local para testes).
+
+### Como Configurar o Arquivo `.env`
+
+1. Crie um arquivo `.env` na raiz do projeto, caso ele ainda não exista.
+2. Adicione as seguintes variáveis com os valores apropriados:
+
+   ```env
+   REACT_APP_TOKEN_API_TMDB=your_api_token_here
+   REACT_APP_API_URL_TMDB=https://api.themoviedb.org/3
+   ```
+
+3. Substitua `your_api_token_here` pela chave de API obtida no [TMDb](https://www.themoviedb.org/).
+
+Essas variáveis serão acessadas na aplicação React por meio do prefixo `REACT_APP_` para garantir que elas sejam incluídas corretamente durante a compilação.
 
 ## Scripts
 
