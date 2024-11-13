@@ -10,6 +10,8 @@ Aqui está o README atualizado com a URL do repositório correta:
 
 **Primeflix** é uma aplicação web desenvolvida em React que exibe um catálogo de filmes, consumindo dados da API [The Movie Database (TMDb)](https://www.themoviedb.org/). A aplicação permite que os usuários naveguem por diferentes categorias de filmes e visualizem informações detalhadas sobre cada título, proporcionando uma experiência interativa e envolvente.
 
+Este projeto foi criado como parte do curso [**React Js do Zero ao Avançado na Prática**](https://www.udemy.com/course/react-do-zero-ao-avancado-na-pratica/) na plataforma **Udemy**, com o objetivo de aprender e praticar os conceitos de React.
+
 ## Funcionalidades
 
 - **Catálogo de filmes** com informações detalhadas de cada título, obtidas diretamente da API TMDb.
