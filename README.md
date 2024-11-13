@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+Aqui está o README atualizado com a URL do repositório correta:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Primeflix
 
-In the project directory, you can run:
+![React](https://img.shields.io/badge/React-18.3.1-blue.svg) ![Axios](https://img.shields.io/badge/Axios-1.7.7-blue.svg) ![React Router](https://img.shields.io/badge/React%20Router-6.28.0-blue.svg)
 
-### `npm start`
+## Descrição
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Primeflix** é uma aplicação web desenvolvida em React que exibe um catálogo de filmes, consumindo dados da API [The Movie Database (TMDb)](https://www.themoviedb.org/). A aplicação permite que os usuários naveguem por diferentes categorias de filmes e visualizem informações detalhadas sobre cada título, proporcionando uma experiência interativa e envolvente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- **Catálogo de filmes** com informações detalhadas de cada título, obtidas diretamente da API TMDb.
+- **Navegação entre páginas** com `react-router-dom`.
+- **Requisições HTTP** usando `axios` para integrar a API do TMDb.
+- **Notificações de feedback** com `react-toastify` para informar o usuário sobre eventos como erros de carregamento.
+- **Testes de interface** com `@testing-library/react` e `@testing-library/jest-dom` para garantir a qualidade da aplicação.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias
 
-### `npm run build`
+- **React** - Biblioteca JavaScript para criação de interfaces de usuário.
+- **React Router** - Biblioteca para roteamento em aplicativos React de página única.
+- **Axios** - Cliente HTTP para fazer chamadas de API.
+- **React Toastify** - Biblioteca para exibir notificações.
+- **React Testing Library** - Ferramenta de teste para componentes React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalação
 
-### `npm run eject`
+1. Clone o repositório:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/Romulo-Reis/primeflix.git
+   cd primeflix
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Instale as dependências:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Obtenha uma chave de API no [TMDb](https://www.themoviedb.org/documentation/api) e configure-a na aplicação (caso o projeto exija configuração manual).
 
-## Learn More
+## Scripts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Você pode usar os seguintes comandos para executar o projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Iniciar o servidor de desenvolvimento:**
 
-### Code Splitting
+  ```bash
+  npm start
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Build para produção:**
 
-### Analyzing the Bundle Size
+  ```bash
+  npm run build
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Rodar testes:**
 
-### Making a Progressive Web App
+  ```bash
+  npm test
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Ejetar a configuração do projeto:**
 
-### Advanced Configuration
+  ```bash
+  npm run eject
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Estrutura do Projeto
 
-### Deployment
+- **`src/`** - Contém o código-fonte principal da aplicação.
+- **`public/`** - Contém o HTML base e ativos estáticos.
+- **`package.json`** - Gerenciamento de dependências e scripts do projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Licença
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a licença MIT.
